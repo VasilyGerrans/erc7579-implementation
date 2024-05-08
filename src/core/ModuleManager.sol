@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.21;
 
-import { SentinelListLib, SENTINEL } from "sentinellist/SentinelList.sol";
+import { SentinelListLib, SENTINEL } from "node_modules/sentinellist/src/SentinelList.sol";
 import {
     CallType, CALLTYPE_SINGLE, CALLTYPE_DELEGATECALL, CALLTYPE_STATIC
 } from "../lib/ModeLib.sol";
 import { AccountBase } from "./AccountBase.sol";
 import "../interfaces/IERC7579Module.sol";
-import "forge-std/interfaces/IERC165.sol";
+import "node_modules/forge-std/src/interfaces/IERC165.sol";
 import "./Receiver.sol";
 
 /**
