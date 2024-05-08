@@ -6,7 +6,7 @@ import { IERC7579Account, Execution } from "src/interfaces/IERC7579Account.sol";
 import { ExecutionLib } from "src/lib/ExecutionLib.sol";
 import { ModeLib } from "src/lib/ModeLib.sol";
 
-import "node_modules/forge-std/src/console2.sol";
+import "../../node_modules/forge-std/src/console2.sol";
 
 contract MockFallback is IFallback {
     function delegateCallTarget(uint256 param)

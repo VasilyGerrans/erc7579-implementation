@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import "node_modules/forge-std/src/Test.sol";
+import "../node_modules/forge-std/src/Test.sol";
 import "src/lib/ExecutionLib.sol";
 
 contract ExecutionLibTest is Test {
