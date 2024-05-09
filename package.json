@@ -11,15 +11,23 @@
     "url": "https://github.com/rhinestonewtf/modulekit/issues"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "5.0.1"
-  },
-  "devDependencies": {
-    "account-abstraction": "github:eth-infinitism/account-abstraction#develop",
-    "ds-test": "github:dapphub/ds-test",
-    "forge-std": "github:foundry-rs/forge-std",
-    "prettier": "^2.8.8",
+    "@openzeppelin/contracts": "5.0.1",
     "sentinellist": "github:zeroknots/sentinellist",
+    "account-abstraction": "github:eth-infinitism/account-abstraction#develop",
     "solady": "github:vectorized/solady",
+    "ds-test": "github:dapphub/ds-test",
+    "forge-std": "github:foundry-rs/forge-std"
+  },
+  "bundledDependencies": [
+    "@openzeppelin/contracts",
+    "sentinellist",
+    "account-abstraction",
+    "solady",
+    "ds-test",
+    "forge-std"
+  ],
+  "devDependencies": {
+    "prettier": "^2.8.8",
     "solhint": "^4.1.1"
   },
   "files": [
