@@ -37,7 +37,8 @@
     "src",
     "test/utils",
     "CHANGELOG.md",
-    "LICENSE-GPL.md"
+    "LICENSE-GPL.md",
+    ".npmrc"
   ],
   "homepage": "https://github.com/rhinestonewtf/modulekit/#readme",
   "keywords": [
