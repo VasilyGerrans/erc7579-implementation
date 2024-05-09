@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.23;
 
-import "node_modules/forge-std/src/Test.sol";
+import "forge-std/Test.sol";
 import { MSAAdvanced } from "src/MSAAdvanced.sol";
 import "src/interfaces/IERC7579Account.sol";
 import "src/MSAFactory.sol";
