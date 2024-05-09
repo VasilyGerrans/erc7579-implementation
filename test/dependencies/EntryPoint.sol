@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.21;
 
-import "../../node_modules/account-abstraction/contracts/interfaces/IEntryPoint.sol";
-import { IEntryPoint } from "../../node_modules/account-abstraction/contracts/interfaces/IEntryPoint.sol";
-import { EntryPoint, SenderCreator } from "../../node_modules/account-abstraction/contracts/core/EntryPoint.sol";
-import { EntryPointSimulations } from "../../node_modules/account-abstraction/contracts/core/EntryPointSimulations.sol";
+import "node_modules/account-abstraction/contracts/interfaces/IEntryPoint.sol";
+import { IEntryPoint } from "node_modules/account-abstraction/contracts/interfaces/IEntryPoint.sol";
+import { EntryPoint, SenderCreator } from "node_modules/account-abstraction/contracts/core/EntryPoint.sol";
+import { EntryPointSimulations } from "node_modules/account-abstraction/contracts/core/EntryPointSimulations.sol";
 
 contract EntryPointSimulationsPatch is EntryPointSimulations {
     address _entrypointAddr = address(this);
@@ -39,7 +39,7 @@ function etchEntrypoint() returns (IEntryPoint) {
     return IEntryPoint(ENTRYPOINT_ADDR);
 }
 
-import "../../node_modules/forge-std/src/Vm.sol";
+import "node_modules/forge-std/src/Vm.sol";
 
 address constant VM_ADDR = 0x7109709ECfa91a80626fF3989D68f67F5b1DD12D;
 
