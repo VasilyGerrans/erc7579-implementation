@@ -11,9 +11,7 @@
     "url": "https://github.com/rhinestonewtf/modulekit/issues"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "5.0.1"
-  },
-  "devDependencies": {
+    "@openzeppelin/contracts": "5.0.1",
     "account-abstraction": "github:eth-infinitism/account-abstraction#develop",
     "ds-test": "github:dapphub/ds-test",
     "forge-std": "github:foundry-rs/forge-std",
